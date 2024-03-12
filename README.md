@@ -1,3 +1,4 @@
+# **Sigma Internship Coding Challenge**
 
 ## Getting Started
 -  Installed QuantRocket using Docker.
