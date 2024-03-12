@@ -15,16 +15,18 @@ The objective of this project is to build a simple model to make decisions on ce
   - else if r(d) > -0.1, s(d) = 0
   - else, s(d) = -1
 - **Portfolio Value**:
-  - if s(d+1) = 1 & s(d) = 0, then V(d+1) = V(d) + 1
-  - else if s(d+1) = -1 & s(d) = 0, then V(d+1) = V(d) -1
+  - if s(d+1) = 1 & s(d) = 0, then V(d+1) = V(d) + 1 , 
+    that is we increment **Portfolio Value** only when current state is bull and previous state is flat
+  - else if s(d+1) = -1 & s(d) = 0, then V(d+1) = V(d) -1 ,
+    that is we decrement **Portfolio Value** only when current state is bear and previous state is flat
   - else V(d+1) = V(d)
 
 ## Implementation
-1. Calculate the daily returns based on the closing prices.
-2. Classify the states (Bull, Flat, Bear) based on the defined thresholds.
-3. Determine the optimal buy points according to the given logic.
-4. Calculate the transition distribution based on the state transitions.
-5. Implement the model to maximize the portfolio value (V(N)).
+1. Calculated the daily returns based on the closing prices.
+2. Classified the states (Bull, Flat, Bear) based on the defined thresholds.
+3. Determined the optimal buy points according to the given logic.
+4. Calculateed the transition distribution based on the state transitions.
+5. Implemented the model to maximize the portfolio value (V(N)).
 
 ## DataFrame
 The DataFrame "df" consists of the following:
