@@ -3,7 +3,7 @@
 ## Getting Started
 -  Installed QuantRocket using Docker.
 -  Went through tutorials to understand basic platform capabilities.
--  Pulled the price data (daily close prices only) for Apple stock (sid=‘AAPL’) for the year 2023 (01-01-2023 to 12-31-2023).
+-  Utilized Quantrocket to pull the price data (daily close prices only) for Apple stock (sid=‘AAPL’) for the year 2023 (01-01-2023 to 12-31-2023).
 
 ## Objective
 The objective of this project is to build a simple model to make decisions on certain days using pre-specified logic and maximize V(N).
